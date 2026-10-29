@@ -3,7 +3,7 @@ import google.generativeai as genai
 from graph.tutor_flow import build_tutor_graph  
 
 # Setup Gemini API key
-os.environ["GOOGLE_API_KEY"] = "AIzaSyB3tcSYrrGlN55saJOOc5rBJ9D68BBYCQE"
+os.environ["GOOGLE_API_KEY"] = 
 genai.configure(api_key=os.environ["GOOGLE_API_KEY"])
 
 # Build LangGraph flow
